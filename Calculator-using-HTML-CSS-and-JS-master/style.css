@@ -1,0 +1,168 @@
+body {
+	/* background: url(http://www.inkspilldesign.com/demo/wood-tile-background.jpg); */
+	/* background-color: #424242; */
+	/* font-family: Tahoma; */
+	background-image: url("zimg.jpg");
+	/* background-image: url("Scooter.jpg"); */
+}
+
+.textview{
+  display: inline-block;
+	margin: 2px;
+	width: 198px;
+	height: 29px;
+	font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(245, 242, 237, 0.589);
+	/* background:none */
+	/* border-radius: 10px; */
+	border: none;
+}
+
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height:91px;
+    outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+  
+}
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+  
+}
+
+.button:active, .allclearButton:active,.equalButton:active{
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
+
+
+.button:hover,.equalButton:hover {
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #AE5700;
+	border-left: 2px solid #AE5700;
+}
+
+.allclearButton {
+  border-radius: 10px;
+	color: #FFF;
+    margin: 2px;
+	width: 42px;
+	height: 42px;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #D20000;
+	border-top: 2px solid #FF8484;
+	border-right: 2px solid #FF8484;
+	border-bottom: 2px solid #800000;
+	border-left: 2px solid #800000;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+	outline: none;
+}
+
+h1{
+	color:#F1620B;
+	font-size: 52px;
+    text-justify: newspaper;
+    text-align: center;
+
+}
+.container{
+		background: rgba(146, 142, 142, 0.589);
+		/* background-size: 100px 80px; */
+		background-size: cover;
+		position:absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%)
+}
+@font-face {
+    font-family: 'Share Tech Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sharetechmono/v15/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+.root{
+    width: 100%;
+    height: 100vh;
+    background: #101d2d;
+    font-family: 'Share Tech Mono';
+    position: relative;
+}
+nav{
+    width: 84%;
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.caption{
+    color: #edf2fc;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.btn{
+    width: 100px;
+    height: 80px;
+    border: 1px solid black transparent;
+    text-decoration: none;
+    color: #edf2fc;
+    padding: 10px 18px;
+    background: #045c61;
+    border-radius: 5px;
+}
+
+.social-contents{
+    width: 80%;
+    margin-left: 650px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-contents ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.social-contents ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+      
