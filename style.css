@@ -12,7 +12,7 @@
     height: 100vh;
     background: #4213c5;
     font-family: 'Share Tech Mono';
-    position: center;
+    position: relative;
 }
 nav{
     width: 84%;
